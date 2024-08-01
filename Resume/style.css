@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column, .right-column {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column {
+    width: 30%;
+    background-color: #f9f9f9;
+    border-right: 2px solid #ddd;
+    text-align: center; /* Center-aligns the content */
+}
+
+.profile-img {
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle area */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+.right-column {
+    width: 70%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
